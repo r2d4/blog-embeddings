@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "2yearblog"
+version = "0.1.0"
+description = ""
+authors = ["Matt Rickard <git@matt-rickard.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+transformers = "^4.29.2"
+torch = "^2.0.1"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+mplcursors = "^0.5.2"
+plotly = "^5.14.1"
+pandas = "^2.0.1"
+nbformat = "^5.8.0"
+openai = "^0.27.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
